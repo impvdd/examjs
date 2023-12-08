@@ -1,0 +1,178 @@
+.login {
+  width: 500px;
+  height: 420px;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.login__off {
+  display: none;
+}
+
+.login__title {
+  font-size: 48px;
+  color: white;
+}
+
+.login__form {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.login__form #login__username {
+  width: 495px;
+  font-size: 20px;
+  color: white;
+  background-color: #262c3a;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid white;
+}
+.login__form #login__password {
+  width: 495px;
+  font-size: 20px;
+  color: white;
+  background-color: #262c3a;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid white;
+}
+
+.login__btn {
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(135, 202, 204);
+  border: none;
+  font-size: 20px;
+}
+
+.signUp__btn {
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(135, 202, 204);
+  border: none;
+  font-size: 20px;
+}
+
+.signUp__btn:active {
+  background-color: white;
+  border: none;
+}
+
+.login__btn:active {
+  background-color: white;
+  border: none;
+}
+
+.login__back {
+  width: 1600px;
+  height: 900px;
+  margin: auto;
+  background-image: url("../../style/imgs/register/register-wallpaper.jpeg");
+  display: flex;
+  transform: scale(1.1);
+  align-items: center;
+  justify-content: center;
+}
+
+.signUp {
+  width: 500px;
+  height: 600px;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  display: none;
+}
+
+.signUp__form {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.signUp__form #login__username {
+  width: 495px;
+  font-size: 20px;
+  color: white;
+  background-color: #262c3a;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid white;
+}
+.signUp__form #login__password {
+  width: 495px;
+  font-size: 20px;
+  color: white;
+  background-color: #262c3a;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid white;
+}
+.signUp__form input {
+  width: 495px;
+  font-size: 20px;
+  color: white;
+  background-color: #262c3a;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid white;
+}
+.signUp__form #inputt {
+  width: 495px;
+  font-size: 20px;
+  color: white;
+  background-color: #262c3a;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.to__signUp {
+  color: rgb(173, 173, 173);
+  background: none;
+  border: none;
+}
+
+.to__login {
+  color: rgb(173, 173, 173);
+  background: none;
+  border: none;
+}
+
+.under__password {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  right: 0;
+  top: 10px;
+}
+
+.under__password-again {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  right: 0;
+  top: 10px;
+}
+
+.under__mail {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  right: 0;
+  top: 10px;
+}/*# sourceMappingURL=login.css.map */

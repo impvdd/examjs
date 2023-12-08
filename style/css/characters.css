@@ -1,0 +1,129 @@
+#characters {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.product__card {
+  width: 300px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.main__page {
+  margin: 100px auto;
+  width: 1700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  overflow: hidden;
+}
+
+.buy__button {
+  width: 60px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.buy__button:hover {
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+#characters__search {
+  width: 320px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.search {
+  width: 334px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.characters__search-btn {
+  width: 60px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.characters__search-btn:hover {
+  width: 60px;
+  height: 35px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+}
+
+#status-filter {
+  width: 150px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#status-filter option {
+  background-color: black;
+  color: white;
+}
+
+#price-filter {
+  width: 150px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#price-filter option {
+  background-color: black;
+  color: white;
+}
+
+.buy__button:active {
+  transform: scale(1.2);
+  transition: 200ms;
+  background-color: rgb(40, 40, 40);
+}
+
+.arrow__btn {
+  border: none;
+  background-color: none;
+}
+.arrow__btn img {
+  width: 50px;
+  height: 50px;
+}
+
+.arrow__btn:hover {
+  transform: scale(0.95);
+  transition: 200ms;
+}/*# sourceMappingURL=characters.css.map */

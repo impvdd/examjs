@@ -1,0 +1,37 @@
+#faq{
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.accordion {
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-title {
+    background-color: #f4f4f4;
+    padding: 10px;
+    
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+    font-size: 18px;
+    color: #2e2e2e; 
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+    
+}

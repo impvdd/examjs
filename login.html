@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Login</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        body{
+            margin:50px auto;
+
+        }
+    </style>
+</head>
+<body>
+    <main class="login__back">
+        <section class="login">
+            <h2 class="login__title">Login</h2>
+            <div class="login__form" >
+                <input type="text" id="login__username" placeholder="Username">
+                <input type="password" name="" id="login__password" placeholder="Password">
+                <button class="login__btn"> Login </button>
+                <button class="to__signUp" >Sign up now.</button>
+                
+            </div>
+        </section>
+        <section class="signUp">
+            <h2 class="login__title">Sign Up</h2>
+            <div class="signUp__form" >
+                <div id="inputt">
+                    <input type="text" name="user" id="login__email" placeholder="E-mail">
+                    <span class="under__mail"></span>
+                </div>
+                
+                <input type="text" id="signUp__username" placeholder="Username">
+                <div id="inputt">
+                    <input type="password" name="" id="singUp__password" placeholder="Password">
+                    <span class="under__password"></span>
+                </div>
+                <div id="inputt">
+                    <input type="password" name="" id="login__password-again" placeholder="Confirm your password">
+                    <span class="under__password-again"></span>
+                </div>
+                
+                <button class="signUp__btn">Create account</button>
+                <button class="to__login">Do you have an account?</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="login.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>

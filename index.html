@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="https://icon-library.com/images/rick-and-morty-icon/rick-and-morty-icon-15.jpg" />
+    <style> 
+        
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav__menu">
+            <img src="./style/imgs/rick-icon.png" alt="" class="header__icon">
+            <div class="nav__left">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#characters">Characters</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="./basket.html"><img src="./style/imgs/cart-icon.png" alt="" class="nav__icon"></a></li>
+                    
+                    <li><a href="./login.html" class="profile-icon"><img src="./style/imgs/profile-icon.png" alt="" class="nav__icon"></a>
+                        <span class="logged-in-status"></span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <img src="./style/imgs/rick-and-morty-wallpaper.jpg" alt="" class="header__wallpaper">
+    </header>
+    
+    <main>
+
+        <section id="about">
+            <div class="about__header">
+                <h1 class="section__title">About</h1>
+                <h2>Welcome to our unique universe of characters from
+                    the animated series "Rick and Morty"! We are a team of enthusiasts who
+                    give you the opportunity to acquire your own character from this exciting and crazy world.</h2>
+            </div>
+
+            <div class="about__content">
+                <img src="./style/imgs/about/rick.png" alt="">
+                <div class="about__content-text">
+                    <h2 class="about__content-title">Who are we ?</h2>
+                    <p class="about__content-description">We are a team of Rick and Morty fans united by a common
+                        passion for this amazing animated series. Our characters are not just figurines or images,
+                        they are a piece of this amazing world that you can bring to your home.</p>
+                </div>
+
+            </div>
+            <div class="about__content">
+                <img src="./style/imgs/about/morty.png" alt="">
+                <div class="about__content-text">
+                    <h2 class="about__content-title">What do we offer ?</h2>
+                    <p class="about__content-description">We offer unique and high-quality characters from "Rick and
+                        Morty",
+                        created with a love of detail. Whether you are a long-awaited
+                        collector or just a fan, we have something special for everyone.</p>
+                </div>
+
+            </div>
+            <div class="about__content">
+                <img src="./style/imgs/about/summer.png" alt="">
+                <div class="about__content-list-text">
+                    <h2 class="about__content-title">Why choose us ?</h2>
+                    <ul class="about__content-list">
+                        <li>Originality: Each of our characters is unique and made with special attention to detail.
+                        </li>
+                        <li>Quality: We are proud to offer high-quality products that delight the eye and embody the
+                            spirit
+                            of the animated series.</li>
+                        <li>Love of things: We don't just sell products, we do it with love and passion for the world of
+                            "Rick and Morty", and we hope that they bring you joy as well as us.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="characters">
+            <h1 class="section__title">Characters</h1>
+            <div class="search">
+                <input type="text" name="" id="characters__search">
+                <!-- <button class="characters__search-btn">Search</button> -->
+                <select id="status-filter">
+                    <option value="All">All</option>
+                    <option value="Alive">Alive</option>
+                    <option value="Dead">Dead</option>
+                    <option value="unknown">Unknown</option>
+                </select>
+                <select id="price-filter">
+                    <option value="All">All</option>
+                    <option value="Cheap">From cheaper</option>
+                    <option value="Expensive">From expensive</option>
+                </select>
+            </div>
+
+
+
+            <div class="main__page">
+
+            </div>
+            <div class="page-scroll">
+                <button class="prev__page-btn arrow__btn"><img src="./style/imgs/arrow-left-square-svgrepo-com.svg" alt=""></button>
+                <button class="next__page-btn arrow__btn"><img src="./style/imgs/arrow-right-square-svgrepo-com.svg" alt=""></button>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h1 class="section__title">Frequently Asked Questions</h1>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-title">What is the process of selecting and ordering a character on your
+                        website?</div>
+                    <div class="accordion-content">
+                        <p>On our website, the choice of a character is very simple. You just go to the "Characters"
+                            page and view the available characters from the animated series "Rick and Morty". As soon as
+                            you select the desired hero, click the "Add to cart" button and follow the instructions to
+                            place an order.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-title">Can I get information about the characteristics or features of each
+                        character before buying?</div>
+                    <div class="accordion-content">
+                        <p>Of course! On the page of each character, we provide detailed information about his
+                            characteristics, history and interesting facts from the animated series. This will help you
+                            choose the character that best suits your preferences.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">What payment options do you offer to purchase characters from the
+                        animated series?</div>
+                    <div class="accordion-content">
+                        <p>We offer a variety of payment options, including credit and debit cards, electronic payments,
+                            as well as payments through electronic money platforms such as PayPal or WebMoney.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">Is it possible to place an order for a character with individual or
+                        personalized details?</div>
+                    <div class="accordion-content">
+                        <p>Unfortunately, at the moment we do not provide services for customizing characters. However,
+                            we try to offer a wide selection of standard characters from the animated series.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">What are the terms of delivery and return of products if they do not
+                        meet expectations or have defects?</div>
+                    <div class="accordion-content">
+                        <p>We guarantee the quality of our products. If the product arrived with defects or does not
+                            meet your expectations, please contact us within 14 days after receiving the order, and we
+                            will find the best solution - replacement of the product or refund. Delivery is carried out
+                            by reliable services so that your order arrives safely and on time.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-icons">
+            <img src="./style/imgs/instagram-icon.png" alt="">
+            <img src="./style/imgs/discord-icon.png" alt="">
+            <img src="./style/imgs/telegram-icon.png" alt="">
+            <img src="./style/imgs/twitter-icon.png" alt="">
+        </div>
+        <div class="footer-line">
+        </div>
+        <ul class="footer-info">
+            <li>Phone: +123456789</li>
+            <li>Email: info@rickandmorticharacters.com</li>
+            <li>Address: Earth C-137</li>
+        </ul>
+    </footer>
+
+
+
+
+
+    
+    <script src="login.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="app.js"></script> -->
+    <script src="cart.js"></script>
+    
+</body>
+
+</html>

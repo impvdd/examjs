@@ -1,0 +1,148 @@
+.cart-page{
+    margin: 100px auto;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#cartItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+
+    .cart-item {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin-bottom: 10px;
+
+        button {
+            padding: 5px 10px;
+            background-color: #ff6347;
+            border: none;
+            color: white;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #e74c3c;
+            }
+        }
+    }
+}
+
+#cartTotal {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#clearCartBtn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #2980b9;
+    }
+}
+
+#cartItems {
+    margin: 100px auto;
+    width: 1600px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow: hidden;
+  }
+
+  .notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    animation: fadeOut 2s ease-in-out forwards;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+.puls-and-minus{
+    margin: auto;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cartPlus{
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.cartMinus{
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.cartPlus:hover{
+    background-color: black;
+    color: white;
+    transition: 200ms;
+}
+.cartMinus:hover{
+    background-color: black;
+    color: white;
+    transition: 50ms;
+}
+.cartPlus:active{
+    transform: scale(1.5);
+    transition: 200ms;
+}
+.cartMinus:active{
+    transform: scale(1.5);
+    transition: 50ms;
+}
+.product__card{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    span{
+        padding-top: 40px;
+    }
+}

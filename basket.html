@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <style>
+    body {
+      margin: auto;
+      width: 1700px;
+      min-height: 1000px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="cart-page">
+    <a href="./index.html"><img src="./style/imgs/rick-icon.png" alt="" class="header__icon"></a>
+    <h1 class="section__title">Корзина</h1>
+    <div id="cartItems">
+
+    </div>
+    <p>Итого: <span id="cartTotal"></span></p>
+
+    <button id="clearCartBtn">Очистить корзину</button>
+  </div>
+  <footer class="footer">
+    <div class="footer__nav">
+      <ul>
+        <li><a href="./index.html#about">About</a></li>
+        <li><a href="./index.html#characters">Characters</a></li>
+        <li><a href="./index.html#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-icons">
+      <img src="./style/imgs/instagram-icon.png" alt="">
+      <img src="./style/imgs/discord-icon.png" alt="">
+      <img src="./style/imgs/telegram-icon.png" alt="">
+      <img src="./style/imgs/twitter-icon.png" alt="">
+    </div>
+    <div class="footer-line">
+    </div>
+    <ul class="footer-info">
+      <li>Phone: +123456789</li>
+      <li>Email: info@rickandmorticharacters.com</li>
+      <li>Address: Earth C-137</li>
+    </ul>
+  </footer>
+
+  <script src="cart.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
